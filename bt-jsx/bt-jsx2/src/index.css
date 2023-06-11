@@ -1,0 +1,22 @@
+table , tr , th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+tr {
+  height: 50px;
+}
+th , td {
+  width: 300px;
+  text-align: center;
+  text-transform:capitalize
+}
+tr:nth-child(odd){
+  background-color: #dddddd ;
+}
+tr:nth-child(even){
+  background-color: wheat;
+}
