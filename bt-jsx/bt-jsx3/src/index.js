@@ -6,14 +6,30 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const element = <><div>
-<img src='https://inkythuatso.com/uploads/thumbnails/800/2022/03/79d31e406fe3d3d7322b18666184911d-29-10-39-38.jpg'></img>
-<p>ruma khan</p>
+const element = <><div className="container">
+    <div className="card">
+        <div className="card--header" />
+        <img
+            className="avatar"
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="avatar"
+        />
+        <div className="card--body">
+            <div>
+                <p className="text-header">Ruma Khan</p>
+                <p className="text-sub">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry
+                </p>
+                <button className="btn third">FOLLOW</button>
+            </div>
+        </div>
+    </div>
 </div>
 </>
 
 root.render(
- element
+    element
 );
 
 // If you want to start measuring performance in your app, pass a function
